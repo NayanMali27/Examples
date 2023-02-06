@@ -1,0 +1,447 @@
+{
+    "superheroes": [
+      {
+        "id": 1,
+        "name": "Batman",
+        "alterEgo": "Bruce Wayne"
+      },
+      {
+        "id": 2,
+        "name": "Superman",
+        "alterEgo": "Clark Kent"
+      },
+      {
+        "id": 3,
+        "name": "Wonder Woman",
+        "alterEgo": "Princess Diana"
+      },
+      {
+        "name": "a",
+        "alterEgo": "s",
+        "id": 5
+      },
+      {
+        "name": "nayan",
+        "alterEgo": "mali",
+        "id": 6
+      },
+      {
+        "name": "as",
+        "alterEgo": "s",
+        "id": 7
+      },
+      {
+        "name": "n",
+        "alterEgo": "m",
+        "id": 8
+      },
+      {
+        "name": "qwei",
+        "alterEgo": "lkxsa",
+        "id": 9
+      },
+      {
+        "name": "qws",
+        "alterEgo": "kxmc",
+        "id": 10
+      },
+      {
+        "name": "nayan",
+        "alterEgo": "mali",
+        "id": 11
+      }
+    ],
+    "friends": [
+      {
+        "id": 1,
+        "name": "sarthak"
+      },
+      {
+        "id": 2,
+        "name": "parth"
+      },
+      {
+        "id": 3,
+        "name": "krupen"
+      }
+    ],
+    "users": [
+      {
+        "id": "nyn@gmail.com",
+        "channelId": "nyn"
+      }
+    ],
+    "channels": [
+      {
+        "id": "nyn",
+        "courses": [
+          "react",
+          "node",
+          "git"
+        ]
+      }
+    ],
+    "colors": [
+      {
+        "id": 1,
+        "color": "aqua"
+      },
+      {
+        "id": 2,
+        "color": "red"
+      },
+      {
+        "id": 3,
+        "color": "blue"
+      },
+      {
+        "id": 4,
+        "color": "white"
+      },
+      {
+        "id": 5,
+        "color": "black"
+      },
+      {
+        "id": 6,
+        "color": "green"
+      },
+      {
+        "id": 7,
+        "color": "orange"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      }
+      ,
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      },
+      {
+        "id": 8,
+        "color": "yellow"
+      }
+    ]
+  }
