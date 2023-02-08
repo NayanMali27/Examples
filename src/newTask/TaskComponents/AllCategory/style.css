@@ -1,0 +1,12 @@
+.ant-card-bordered.active{
+    border: 2px solid #bc4343;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+.ScrollStyle
+{
+    max-height: 500px;
+    max-width: 1000px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}

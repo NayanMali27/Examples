@@ -1,13 +1,10 @@
 import "./App.css";
-import Routers from "./Routes";
-import { QueryClient, QueryClientProvider } from "react-query";
-const queryClient = new QueryClient();
+import 'antd/dist/antd.css';
+import NewTask from "./newTask/TaskComponents/NewTask";
 function App() {
   return (
     <div className="App">
-      <QueryClientProvider client={queryClient}>
-        <Routers />
-      </QueryClientProvider>
+        <NewTask/>
     </div>
   );
 }

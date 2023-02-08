@@ -18,7 +18,7 @@ export const fetchReducer = (state: stateType, action: any) => {
         return {
           ...state,
           loading: false,
-          payload: action.payload,
+          payload: action.payload.data,
         };
       case fetchReducerTypes.FECTCH_ERROR:
         return {
