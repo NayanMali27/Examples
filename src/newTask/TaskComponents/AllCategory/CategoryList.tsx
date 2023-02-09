@@ -5,7 +5,6 @@ import "./style.css";
 
 const CategoryList = (props: any) => {
   const { categoriesList, modelRef, setSelected, selected } = props;
-  console.log(selected.selectedCategory)
   return (
     <>
       {categoriesList &&

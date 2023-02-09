@@ -1,11 +1,11 @@
 import React, { useEffect, useReducer, useRef, useState } from "react";
 import { fetchReducer } from "../../../Utils/reducer/fetchReducer";
 import { fetchReducerTypes } from "../../../Utils/reducer/fetchReducerTypes";
-import SidebarCompo from "../Sidebar/Sidebar";
+import Sidebar from "../Sidebar/Sidebar";
 import { getCategoryData } from "./category.service";
 import ModalWrapper from "../../../Utils/Modal/Modal";
 import CategoryList from "./CategoryList";
-
+import CategoryData from './data.json'
 const AllCategory = () => {
   const modelRef: any = useRef(null);
   const intialState = {
@@ -22,8 +22,8 @@ const AllCategory = () => {
   const getCategories = async () => {
     try {
       dispatch({ type: fetchReducerTypes.FECTCH_START });
-      const response = await getCategoryData();
-      dispatch({ type: fetchReducerTypes.FETCH_SUCCESS, payload: response });
+      // const response = await getCategoryData();
+      dispatch({ type: fetchReducerTypes.FETCH_SUCCESS, payload: CategoryData.category });
     } catch (error) {
       dispatch({ type: fetchReducerTypes.FECTCH_ERROR });
     }
@@ -50,7 +50,7 @@ const AllCategory = () => {
       ) : (
         <>
           {productModal()}
-          <SidebarCompo
+          <Sidebar
             categoryData={state.payload}
             setSelected={setSelected}
             selected={selected}

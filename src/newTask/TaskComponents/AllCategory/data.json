@@ -1,0 +1,164 @@
+{
+    "category": [
+      {
+        "imageUrl": "",
+        "name": "Aesthetics",
+        "products": [],
+        "subcategories": [
+          {
+            "description": "",
+            "id": 27,
+            "imageUrl": "",
+            "name": "Additional Fan Case",
+            "products": [
+              {
+                "id": 119,
+                "name": "1x Arctic P12 PWM PST Case Fan",
+                "_id": "8dd687f6-f89c-4320-ae70-fca688b31cc3"
+              },
+              {
+                "id": 118,
+                "name": "2x Arctic P12 PWM PST Case Fan",
+                "_id": "50a9a5df-06de-4d6c-aa67-b4618bdaf575"
+              }
+            ],
+            "subcategories": [],
+            "url": "/aesthetics/additional-fan-case/"
+          },
+          {
+            "description": "",
+            "id": 26,
+            "imageUrl": "",
+            "name": "Case",
+            "products": [
+              {
+                "id": 131,
+                "name": "Daylight",
+                "_id": "8dd687f6-f89c-4320-ae7b31cc3"
+              },
+              {
+                "id": 198,
+                "name": "Phaneteks - Black",
+                "_id": "50a9a5dfc-aa67-b4618bdaf575"
+              },
+              {
+                "id": 8,
+                "name": "Niteride",
+                "_id": "502##5a9a5dfc-aa67-b4618bdaf575"
+              }
+            ],
+            "subcategories": [],
+            "url": "/aesthetics/case/"
+          }
+        ],
+        "_id": "one"
+      },
+      {
+        "imageUrl": "",
+        "name": "Category 2",
+        "products": [],
+        "subcategories": [
+          {
+            "description": "",
+            "id": 29,
+            "imageUrl": "",
+            "name": "Aesthetics Subcategories 1",
+            "products": [
+              {
+                "id": 121,
+                "name": "1x Arctic Product 1",
+                "_id": "8dd687f6-f89c-4320-ae70-fca688b31cc355"
+              },
+              {
+                "id": 120,
+                "name": "2x Arctic Product 2",
+                "_id": "50a9a5df-06de-4d6c-aa67-b4618bdaf57544"
+              }
+            ],
+            "subcategories": [],
+            "url": "/aesthetics/additional-fan-case/"
+          },
+          {
+            "description": "",
+            "id": 28,
+            "imageUrl": "",
+            "name": "Aesthetics Subcategories 2",
+            "products": [
+              {
+                "id": 1311,
+                "name": "Daylight product 1",
+                "_id": "8dd687f6-f89c-4320-ae7b31cc345"
+              },
+              {
+                "id": 1982,
+                "name": "Phaneteks - Black product 2",
+                "_id": "50a9a5dfc-aa67-b4618bdaf57524"
+              },
+              {
+                "id": 83,
+                "name": "Niteride product 3",
+                "_id": "502##5a9a5dfc-aa67-b4618bdaf57514"
+              }
+            ],
+            "subcategories": [],
+            "url": "/aesthetics/case/"
+          }
+        ],
+        "_id": "ef8ff2bb-f012-45da-916f-d48cd1a75967ss"
+      },
+      {
+        "imageUrl": "",
+        "name": "Category 3",
+        "products": [],
+        "subcategories": [
+          {
+            "description": "",
+            "id": 294,
+            "imageUrl": "",
+            "name": "Aesthetics Subcategories 3.1",
+            "products": [
+              {
+                "id": 1211,
+                "name": "1x Arctic Product 3.1",
+                "_id": "8dd687f6-f89c-4320-ae70-fca688b31cc322"
+              },
+              {
+                "id": 1202,
+                "name": "2x Arctic Product 3.2",
+                "_id": "50a9a5df-06de-4d6c-aa67-b4618bdaf57511"
+              }
+            ],
+            "subcategories": [],
+            "url": "/aesthetics/additional-fan-case/"
+          },
+          {
+            "description": "",
+            "id": 285,
+            "imageUrl": "",
+            "name": "Aesthetics Subcategories 3.2",
+            "products": [
+              {
+                "id": 13112,
+                "name": "Daylight product 3.1",
+                "_id": "8dd687f6-f89c-4320-ae7b31cc334"
+              },
+              {
+                "id": 19823,
+                "name": "Phaneteks - Black product 3.2",
+                "_id": "50a9a5dfc-aa67-b4618bdaf57523"
+              },
+              {
+                "id": 834,
+                "name": "Niteride product 3.3",
+                "_id": "502##5a9a5dfc-aa67-b4618bdaf57512"
+              }
+            ],
+            "subcategories": [],
+            "url": "/aesthetics/case/"
+          }
+        ],
+        "_id": "ef8ff2bb-f012-45da-916f-d48cd1a75967"
+      }
+    ]
+  }
+  
