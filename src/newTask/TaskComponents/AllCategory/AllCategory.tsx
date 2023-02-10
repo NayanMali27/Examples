@@ -1,11 +1,11 @@
-import React, { useEffect, useReducer, useRef, useState } from "react";
+import React, { useEffect, useMemo, useReducer, useRef, useState } from "react";
 import { fetchReducer } from "../../../Utils/reducer/fetchReducer";
 import { fetchReducerTypes } from "../../../Utils/reducer/fetchReducerTypes";
 import Sidebar from "../Sidebar/Sidebar";
-import { getCategoryData } from "./category.service";
+// import { getCategoryData } from "./category.service";
 import ModalWrapper from "../../../Utils/Modal/Modal";
 import CategoryList from "./CategoryList";
-import CategoryData from './data.json'
+import CategoryData from "./data.json";
 const AllCategory = () => {
   const modelRef: any = useRef(null);
   const intialState = {
@@ -23,7 +23,10 @@ const AllCategory = () => {
     try {
       dispatch({ type: fetchReducerTypes.FECTCH_START });
       // const response = await getCategoryData();
-      dispatch({ type: fetchReducerTypes.FETCH_SUCCESS, payload: CategoryData.category });
+      dispatch({
+        type: fetchReducerTypes.FETCH_SUCCESS,
+        payload: CategoryData.category,
+      });
     } catch (error) {
       dispatch({ type: fetchReducerTypes.FECTCH_ERROR });
     }
@@ -32,30 +35,33 @@ const AllCategory = () => {
     getCategories();
   }, []);
 
-  const productModal = () => (
-    <ModalWrapper ref={modelRef} title={selected.selectedSubCategoryName}>
-      {selected.products.map((product: any) => {
-        return (
-          <React.Fragment key={product.id}>
-            <h3>{product.name}</h3>
-          </React.Fragment>
-        );
-      })}
-    </ModalWrapper>
-  );
+  const productModal = useMemo(() => {
+    console.log("modal");
+    return (
+      <ModalWrapper ref={modelRef} title={selected.selectedSubCategoryName}>
+        {selected.products.map((product: any) => {
+          return (
+            <React.Fragment key={product.id}>
+              <h3>{product.name}</h3>
+            </React.Fragment>
+          );
+        })}
+      </ModalWrapper>
+    );
+  }, [selected.products, selected.selectedSubCategoryName]);
   return (
     <div>
       {state.loading ? (
         "Loading...."
       ) : (
         <>
-          {productModal()}
+          {productModal}
           <Sidebar
             categoryData={state.payload}
             setSelected={setSelected}
             selected={selected}
           />
-          <div style={{margin:'auto'}}>
+          <div style={{ margin: "auto" }}>
             <CategoryList
               categoriesList={state.payload}
               modelRef={modelRef}

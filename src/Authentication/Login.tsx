@@ -1,18 +1,16 @@
 import { Button, message, Form, Input } from "antd";
-import { useEffect } from "react";
 import { useHistory } from "react-router";
-const Login = (props:any) => {
-    const {loginfunction} = props;
+const Login = (props: any) => {
+  const { loginfunction } = props;
   const [form] = Form.useForm();
   const history = useHistory();
- 
 
   const onFinish = (values: any) => {
     if (values.username === "admin" && values.password === "admin123") {
-        loginfunction(true);
-        message.success("Login Successfully");
-        history.push("/dashboard");
-        form.resetFields();
+      loginfunction(true);
+      message.success("Login Successfully");
+      history.push("/dashboard");
+      form.resetFields();
     } else {
       message.error("Invalid Crendential");
       form.resetFields();
@@ -35,7 +33,6 @@ const Login = (props:any) => {
         form={form}
         labelCol={{ span: 8 }}
         wrapperCol={{ span: 16 }}
-        //   initialValues={{ remember: true }}
         onFinish={onFinish}
         autoComplete="off"
       >

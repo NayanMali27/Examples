@@ -1,11 +1,10 @@
-import { useEffect, useState } from "react";
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   Redirect,
 } from "react-router-dom";
-import useCheckLogin from "../checkLogin";
+import useCheckLogin from "../CheckLogin";
 import Dashboard from "../Dashboard";
 import Login from "../Login";
 
