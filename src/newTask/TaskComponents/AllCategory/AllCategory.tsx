@@ -1,4 +1,4 @@
-import React, { useEffect, useReducer, useRef, useState } from "react";
+import React, { useEffect, useMemo, useReducer, useRef, useState } from "react";
 import { fetchReducer } from "../../../Utils/reducer/fetchReducer";
 import { fetchReducerTypes } from "../../../Utils/reducer/fetchReducerTypes";
 import Sidebar from "../Sidebar/Sidebar";
@@ -32,24 +32,26 @@ const AllCategory = () => {
     getCategories();
   }, []);
 
-  const productModal = () => (
-    <ModalWrapper ref={modelRef} title={selected.selectedSubCategoryName}>
-      {selected.products.map((product: any) => {
-        return (
-          <React.Fragment key={product.id}>
-            <h3>{product.name}</h3>
-          </React.Fragment>
-        );
-      })}
-    </ModalWrapper>
-  );
+  const productModal = useMemo(() => {
+    return (
+      <ModalWrapper ref={modelRef} title={selected.selectedSubCategoryName}>
+        {selected.products.map((product: any) => {
+          return (
+            <React.Fragment key={product.id}>
+              <h3>{product.name}</h3>
+            </React.Fragment>
+          );
+        })}
+      </ModalWrapper>
+    );
+  }, [selected.products, selected.selectedSubCategoryName]);
   return (
     <div>
       {state.loading ? (
         "Loading...."
       ) : (
         <>
-          {productModal()}
+          {productModal}
           <Sidebar
             categoryData={state.payload}
             setSelected={setSelected}
